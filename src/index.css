@@ -1,0 +1,119 @@
+/*Fonts Used*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i|Open+Sans:400,400i');
+
+*, *:before, *:after { box-sizing: border-box; -moz-box-sizing: border-box; image-rendering: -webkit-optimize-contrast;}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline; -webkit-text-size-adjust: 100%;}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+button, html input[type=button], input[type=reset], input[type=submit] { -webkit-appearance: button; cursor: pointer; }
+input:not([type='radio']):not([type='checkbox']), textarea, select{-webkit-appearance: none;}
+form, label {-webkit-text-size-adjust: 100%;}
+mark {background-color: transparent;color:inherit;}
+/* end reset */
+
+/*preset*/
+body{font-family: Inter, Avenir, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 22px;  color:#ffffff;position:relative; background:url('./images/body-bg.jpg') no-repeat center center; background-size: cover;}
+
+
+
+body.active{overflow: hidden;width:100%;height:100%;position:fixed!important;}
+a{ text-decoration:none; -webkit-transition: all .3s linear;transition: all .3s linear;}
+img{max-width: 100%; vertical-align: top; image-rendering: -webkit-optimize-contrast;}
+textarea { resize:vertical; }
+iframe{ border: none; width: 100%;}
+ul, h1, h2, h3, h4{ margin:0; padding:0; list-style:none; }
+strong , b{ font-weight: bold;}
+em, i{font-style: italic;}
+input[type="submit"]{cursor: pointer;}
+a[href^="tel:"]{color: inherit!important; text-decoration: none;}
+
+.clearfix:before, .clearfix:after { content:""; display: table; clear: both; }
+.clearfix {clear: both; overflow: hidden;}
+.comp{color:#0353a1; font-weight:bold; }
+.comingsoon{color:red; font-style:italic; font-weight:bold;}
+.col2{-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-gap: 10px; -moz-column-gap: 10px;  column-gap: 10px;}
+.col3{-webkit-column-count: 3; -moz-column-count: 3; column-count: 3; -webkit-column-gap: 10px; -moz-column-gap: 10px;  column-gap: 10px;}
+.col2 li, .col3 li{display: block; width: 100%;}
+.main_phone {font-weight: bold;}
+
+
+.back_top{display:none;background:#090a0b;position: fixed; z-index:999;bottom:0;width: 100%;height: 45px;cursor:pointer;}
+.back_top:before{content:"";position:absolute;top:45%;left:50%;transform:translate(-50%,-45%);border-bottom:15px solid #fff;border-left:10px solid transparent;border-right:10px solid transparent;}
+.back_top:hover{opacity:.7}
+
+/*Heading for SEO*/
+.h1_hdng{font-size: 22px; font-weight: 700; color: #000;}
+
+/*Thumbnail Images*/
+.thumb_left_dd, .thumb_left_dr{  float:left; margin:-4px 19px 10px 0;}
+.thumb_right_dd, .thumb_right_dr{ float:right; margin:-4px 0 10px 19px;}
+.thumb_center_dd, .thumb_center_dr{ display: block; margin: 10px auto;}
+
+/* Text Alignment */
+.text_left, .text_left p{text-align: left;}
+.text_right, .text_right p{text-align: right;}
+.text_center,.text_center p{text-align: center; display: block;}
+
+/* Forms Presets */
+::-webkit-input-placeholder {opacity: 1; color: inherit;}
+::-moz-placeholder {opacity: 1; color: inherit;}
+:-ms-input-placeholder {opacity: 1; color: inherit;}
+:-moz-placeholder {opacity: 1; color: inherit;}
+
+/*end preset*/
+
+.wrapper{ width:100%; max-width:1500px; margin:0 auto; position:relative;}
+
+:root {font-family: Inter, Avenir, Helvetica, Arial, sans-serif;font-size: 16px;line-height: 24px;font-weight: 400;color-scheme: light dark;color: rgba(255, 255, 255, 0.87);background-color: #242424;font-synthesis: none;text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;-webkit-text-size-adjust: 100%;}
+
+a {font-weight: 500;color: #646cff;text-decoration: inherit;}
+a:hover {color: #535bf2;}
+
+h1 {font-size: 3.2em;line-height: 1.1;}
+
+button {border-radius: 8px;   border: 1px solid transparent;   padding: 0.6em 1.2em;   font-size: 1em;   font-weight: 500;   font-family: inherit;   background-color: #1a1a1a;   cursor:pointer;   transition: border-color 0.25s;}
+button:hover {border-color: #646cff;}
+button:focus,button:focus-visible {outline: 4px auto -webkit-focus-ring-color;}
+
+@media (prefers-color-scheme: light) {
+  :root {color: #213547;background-color: #ffffff;}
+  a:hover {color: #747bff;}
+  button {background-color: #f9f9f9;}
+}
+
+/*end preset*/
+
+
+/* PLAN NAKO ANI IS BUTANGAN UG KEYFRAME ANIMATIONS */
+#root {min-height: 1021px; position:relative;}
+#root:before {background:rgba(0,0,0,.7); height: 100%; width: 100%; z-index: 0; content: ''; position: absolute; left: 0; right: 0; top: 0;}
+
+.nav-con {position: absolute; right: 0; top: 30px;}
+.nav-con ul {display: flex; flex-wrap:wrap; align-items: center; justify-content: space-between; position: relative; z-index: 10;} 
+.nav-con ul li {margin:0 10px;}
+.nav-con ul li a{color:#fff;}
+
+
+.header_con {min-height: 100px; position: absolute; left: 0; top: 30px;}
+
+
+#main_area {padding:200px 0 100px; border-bottom:2px solid #fff; }
+.footer_con {padding:100px 30px;}
+
+
+
+
+
+
+
+
